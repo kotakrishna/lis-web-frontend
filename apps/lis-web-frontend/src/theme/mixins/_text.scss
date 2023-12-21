@@ -1,0 +1,20 @@
+/*
+   Mixins for Text
+   These mixins provide text styling utilities.
+*/
+
+@mixin font-size($size) {
+    font-size: $size;
+  }
+  
+  @mixin font-weight($weight) {
+    font-weight: $weight;
+  }
+  
+  @mixin text-color($color) {
+    color: $color;
+  }
+  
+  @mixin text-center() {
+    text-align: center;
+  }

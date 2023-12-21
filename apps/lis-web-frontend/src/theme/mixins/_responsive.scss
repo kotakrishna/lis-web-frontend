@@ -1,0 +1,28 @@
+/*
+   Mixins for Responsive Design
+   These mixins provide media query breakpoints for responsive design.
+*/
+
+@mixin mobile() {
+    @media screen and (max-width: $sm-screen) {
+      @content;
+    }
+  }
+  
+  @mixin tablet() {
+    @media screen and (min-width: $md-screen) {
+      @content;
+    }
+  }
+  
+  @mixin desktop() {
+    @media screen and (min-width: $lg-screen) {
+      @content;
+    }
+  }
+  
+  @mixin xl() {
+    @media screen and (min-width: $xl-screen) {
+      @content;
+    }
+  }

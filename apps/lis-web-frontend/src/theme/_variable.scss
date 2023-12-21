@@ -1,0 +1,69 @@
+/*
+   Global Variables
+   Customize these variables to control the theme and styles of your application.
+*/
+
+$dark-mode: false !default;
+
+// Colors
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$background-color: #ffffff;
+$text-color: #333333;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$info-color: #17a2b8;
+$warning-color: #ffc107;
+
+@if $dark-mode {
+  $primary-color: #007bff;
+  $secondary-color: #6c757d;
+  $background-color: #333333;
+  $text-color: #ffffff;
+  $success-color: #28a745;
+  $danger-color: #dc3545;
+  $info-color: #17a2b8;
+  $warning-color: #ffc107;
+}
+
+
+// Font Sizes
+$base-font-size: 16px;
+$heading-font-size: 24px;
+$small-font-size: 14px;
+
+// Spacing
+$spacing-unit: 8px;
+$padding-unit: $spacing-unit * 1.5;
+$margin-unit: $spacing-unit * 2;
+
+// Border Radius
+$border-radius: 4px;
+
+// Box Shadow
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+// Z-Index
+$z-index-dropdown: 1000;
+$z-index-modal: 2000;
+$z-index-toast: 3000;
+
+// Breakpoints
+$sm-screen: 576px;
+$md-screen: 768px;
+$lg-screen: 992px;
+$xl-screen: 1200px;
+
+// Fonts
+$font-family-sans-serif: 'Arial', sans-serif;
+$font-family-serif: 'Times New Roman', serif;
+$font-family-monospace: 'Courier New', monospace;
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-medium: 500;
+$font-weight-bold: 700;
+
+/*
+   Custom Variables
+   You can add your own custom variables here as needed.
+*/
