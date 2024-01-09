@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@lis-web-frontend/client-module": ["client-module/src/index.ts"],
       "@lis-web-frontend/header": ["libs/shared/src/index.ts"],
       "@lis-web-frontend/patient-module": ["patient-module/src/index.ts"]
     }
